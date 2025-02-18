@@ -56,7 +56,6 @@ class AffectedFilesResolverITest extends IntegrationTestWithJenkinsPerSuite {
     private static final String ECLIPSE_REPORT_ONE_AFFECTED_AFFECTED_FILE = FOLDER + "/eclipseOneAffectedFile.txt";
     private static final int ROW_NUMBER_ACTUAL_AFFECTED_FILE = 0;
     private static final String COPY_FILES = "Copying affected files to Jenkins' build folder";
-    private static final String ZIP = ".zip";
     private static final String INITIAL_JAVA_REPORT = FOLDER + "/javalog-1.txt";
     private static final String MODIFIED_JAVA_REPORT = FOLDER + "/javalog-2.txt";
     private static final String INITIAL_JAVA_FINGERPRINT_SOURCE_FILE =  FOLDER + "/FingerprintTestWithoutModification.java";
